@@ -1,11 +1,13 @@
 import React from 'react'
 import Todo from './components/Todo'
 import Counter from './components/01_Counter/Counter'
+import Calculator from './components/02_Calculator/Calculator'
 const App = () => {
   return (
     <div>
       {/* <Todo/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Calculator/>
     </div>
   )
 }
