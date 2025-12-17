@@ -4,6 +4,7 @@ import Counter from './components/01_Counter/Counter'
 import Calculator from './components/02_Calculator/Calculator'
 import Weather from './components/04_Weather/Weather'
 import Toggle from './components/03_Toggle/Toggle'
+import Movie from './components/05_MovieSearch/Movie'
 const App = () => {
   return (
     <div>
@@ -11,7 +12,9 @@ const App = () => {
       {/* <Counter/> */}
       {/* <Calculator/> */}
       {/* <Toggle/> */}
-      <Weather/>
+      {/* <Weather/> */}
+      <Movie/>
+      
     </div>
   )
 }
