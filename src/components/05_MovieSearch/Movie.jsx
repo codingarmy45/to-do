@@ -21,7 +21,6 @@ const Movie = () => {
               name: res.data.Title,
               language: res.data.Language,
               genre: res.data.Genre,
-              // FIX 2: Correct casing 'Value' (not value) and safety check
               rating: res.data.Ratings?.[0]?.Value || "N/A",
               year: res.data.Year,
             },
