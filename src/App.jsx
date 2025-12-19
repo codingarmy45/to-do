@@ -16,8 +16,8 @@ const App = () => {
       {/* <Toggle/> */}
       {/* <Weather/> */}
       {/* <Movie/> */}
-      {/* <Notes/> */}
-      <LocalStorage/>
+      <Notes/>
+      {/* <LocalStorage/> */}
       
     </div>
   )
