@@ -7,6 +7,7 @@ import Toggle from './components/03_Toggle/Toggle'
 import Movie from './components/05_MovieSearch/Movie'
 import Notes from './components/06_Notes_App/Notes'
 import LocalStorage from './components/07_Local_Stroage/LocalStorage'
+import PropDrilling from './components/08_Prop_Drilling/PropDrilling'
 const App = () => {
   return (
     <div>
@@ -16,8 +17,9 @@ const App = () => {
       {/* <Toggle/> */}
       {/* <Weather/> */}
       {/* <Movie/> */}
-      <Notes/>
+      {/* <Notes/> */}
       {/* <LocalStorage/> */}
+      <PropDrilling/>
       
     </div>
   )
