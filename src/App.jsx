@@ -13,6 +13,7 @@ import { useContext } from 'react'
 import AuthContext from './components/09_useContext/AuthContext'
 import Pagination from './components/10_Pagination/Pagination'
 import Store from './components/10_Pagination/Store'
+import UseEffect from './Hooks/01_useEffect/Counter'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -29,7 +30,10 @@ const App = () => {
       {/* <Login/>
       <p>{AuthContexts.names}</p> */}
       {/* <Pagination/> */}
-      <Store/>
+      {/* <Store/> */}
+
+      {/* Hooks */}
+      <UseEffect/>
       
     </div>
   )
