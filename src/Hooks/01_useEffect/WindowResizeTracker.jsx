@@ -18,9 +18,9 @@ const WindowResizeTracker = () => {
     window.addEventListener("resize", handleResize);
 
     // Cleanup on unmount
-    // return () => {
-    //   window.removeEventListener("resize", handleResize);
-    // };
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (

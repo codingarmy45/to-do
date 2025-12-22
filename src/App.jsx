@@ -14,6 +14,7 @@ import Pagination from './components/10_Pagination/Pagination'
 import Store from './components/10_Pagination/Store'
 import Counter from './Hooks/01_useEffect/Counter'
 import WindowResizeTracker from './Hooks/01_useEffect/WindowResizeTracker'
+import Timer from './Hooks/01_useEffect/Timer'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -32,9 +33,11 @@ const App = () => {
       {/* <Pagination/> */}
       {/* <Store/> */}
 
+
       {/* Hooks */}
       {/* <Counter/> */}
-      <WindowResizeTracker/>
+      {/* <WindowResizeTracker/> */}
+      <Timer/>
       
     </div>
   )
