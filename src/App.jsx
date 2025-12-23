@@ -16,6 +16,7 @@ import Counter from './Hooks/01_useEffect/Counter'
 import WindowResizeTracker from './Hooks/01_useEffect/WindowResizeTracker'
 import Timer from './Hooks/01_useEffect/Timer'
 import ApiFetching from './Hooks/01_useEffect/ApiFetching'
+import SearchwithDebounce from './Hooks/01_useEffect/SearchwithDebounce'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -25,7 +26,7 @@ const App = () => {
       {/* <Calculator/> */}
       {/* <Toggle/> */}
       {/* <Weather/> */}
-      {/* <Movie/> */}
+      <Movie/>
       {/* <Notes/> */}
       {/* <LocalStorage/> */}
       {/* <PropDrilling/> */}
@@ -39,7 +40,8 @@ const App = () => {
       {/* <Counter/> */}
       {/* <WindowResizeTracker/> */}
       {/* <Timer/> */}
-      <ApiFetching/>
+      {/* <ApiFetching/> */}
+      {/* <SearchwithDebounce/> */}
       
     </div>
   )
