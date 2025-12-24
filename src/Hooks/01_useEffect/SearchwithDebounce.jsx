@@ -25,9 +25,9 @@ const SearchwithDebounce = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       fetchData(inputData);
-    }, 300);
+    }, 300); // executes in 3ms
 
-    return () => clearTimeout(timer);
+    return () => clearTimeout(timer); // exectues in 1ms
   }, [inputData]);
 
 
