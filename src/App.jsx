@@ -2,7 +2,7 @@ import React from 'react'
 import Todo from './components/Todo'
 import Calculator from './components/02_Calculator/Calculator'
 import Weather from './components/04_Weather/Weather'
-import Toggle from './components/03_Toggle/Toggle'
+// import Toggle from './components/03_Toggle/Toggle'
 import Movie from './components/05_MovieSearch/Movie'
 import Notes from './components/06_Notes_App/Notes'
 import LocalStorage from './components/07_Local_Stroage/LocalStorage'
@@ -17,6 +17,7 @@ import WindowResizeTracker from './Hooks/01_useEffect/WindowResizeTracker'
 import Timer from './Hooks/01_useEffect/Timer'
 import ApiFetching from './Hooks/01_useEffect/ApiFetching'
 import SearchwithDebounce from './Hooks/01_useEffect/SearchwithDebounce'
+import Toggle from './Hooks/01_useEffect/Toggle'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -26,7 +27,7 @@ const App = () => {
       {/* <Calculator/> */}
       {/* <Toggle/> */}
       {/* <Weather/> */}
-      <Movie/>
+      {/* <Movie/> */}
       {/* <Notes/> */}
       {/* <LocalStorage/> */}
       {/* <PropDrilling/> */}
@@ -42,6 +43,7 @@ const App = () => {
       {/* <Timer/> */}
       {/* <ApiFetching/> */}
       {/* <SearchwithDebounce/> */}
+      <Toggle/>
       
     </div>
   )
