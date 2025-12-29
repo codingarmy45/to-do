@@ -21,7 +21,8 @@ import Toggle from './Hooks/01_useEffect/Toggle'
 import Upload from './components/11_FileUpload/Upload'
 import FileUpload from './components/11_FileUpload/FileUpload'
 import SingleFile from './components/11_FileUpload/SingleFile'
-import MultipleFile from './components/11_FileUpload/server/MultipleFile'
+import MultipleFile from './components/11_FileUpload/MultipleFile'
+import MulterFileUpload from './components/11_FileUpload/MulterFileUpload'
 const App = () => {
   const AuthContexts = useContext(AuthContext);
   return (
@@ -42,7 +43,8 @@ const App = () => {
       {/* <Upload/> */}
       {/* <FileUpload/> */}
       {/* <SingleFile/> */}
-      <MultipleFile/>
+      {/* <MultipleFile/> */}
+      <MulterFileUpload/>
 
 
       {/* Hooks */}
